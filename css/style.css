@@ -4,45 +4,76 @@ section {
     background-image: url(/img/fc77bc42b5336eef1302d3089c193a39.jpg);
     width: 100%;
     height: 100vh;
-    background-position: center ;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 h1 {
     color: white !important;
     position: absolute;
     text-align: center;
     font-size: 50px !important;
     top: 400px;
-    left: 240px;
+    left: 220px;
+    font-family: Merriweather;
 }
+
 #hotelmanage {
     width: 500px;
     position: absolute;
-   
 }
+
 .imagem-texto {
     display: flex !important;
     flex-direction: column;
 }
-#login {
+
+.login {
     display: flex;
     justify-content: flex-end;
     height: 100vh;
     align-content: center;
 }
-.formLogin {
+
+.login .formLogin {
+    transition: .5s ease;
+    transform: translateX(0);
+    top: 30px;
+    position: relative;
+}
+
+.login .formRegister {
+    display: none;
+    top: 5px;
+    position: relative;
+}
+
+.login.active .formLogin {
+    transition: none;
+    display: none;
+}
+
+.login.active .formRegister {
+    transition: none;
+    display: flex;
+}
+
+.formLogin,
+.formRegister {
     display: flex;
     flex-direction: column;
     color: white;
 }
-.formLogin {
+
+.formLogin,
+.formRegister {
     display: flex;
     flex-direction: column;
     background-color: transparent;
     backdrop-filter: blur(15px);
     border-radius: 15px;
-    padding: 40px;
+    padding: 20px;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
     gap: 5px
 }
@@ -51,7 +82,8 @@ h1 {
     width: 420px;
 }
 
-.formLogin h2 {
+.formLogin h2,
+.formRegister h2 {
     padding: 0;
     margin: 0;
     font-weight: 500;
@@ -60,43 +92,57 @@ h1 {
     font-family: Merriweather;
 }
 
-.formLogin p {
+.formLogin p,
+.formRegister p {
     display: inline-block;
     font-size: 14px;
     margin-bottom: 25px;
 }
 
-.formLogin input {
+.formLogin input,
+.formRegister input {
     padding: 15px;
-    font-size: 14px;
-    border-bottom: 1px solid #ccc;
+    font-size: 15px;
+    border-bottom: 3px solid #ccc;
     margin-bottom: 20px;
     margin-top: 5px;
-    border-radius: 4px;
+    border-radius: 15px;
     transition: all linear 160ms;
     outline: none;
     color: white;
 }
 
 
-.formLogin input:focus {
-    border-bottom: 1px solid rgba(4, 56, 115, 1);
+.formLogin input:focus,
+.formRegister input:focus {
+    border-bottom: 3px solid rgba(4, 56, 115, 1);
 }
 
-.formLogin label {
-    font-size: 14px;
-    font-weight: 600;
+.formLogin label,
+.formRegister label {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 30px;
 }
 
-.formLogin a {
+.registrar {
+    font-size: 20px !important;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.formLogin a,
+.formRegister a {
     display: inline-block;
     margin-bottom: 20px;
-    font-size: 13px;
+    font-size: 15px;
     transition: all linear 160ms;
     text-align: end;
 }
 
-.formLogin a:hover {
+.formLogin a:hover,
+.formRegister a:hover {
     color: rgb(231, 231, 231);
 }
 
@@ -110,23 +156,53 @@ h1 {
     color: white !important;
 }
 
-.btn:hover {
-    transform: scale(1.05);
-    background-color: #ff0676;
-}
 button {
     background: rgba(4, 56, 115, 1);
     border-radius: 20px !important;
-    border: none;
+    border: 3px solid rgba(4, 56, 115, 1);
+    transition: 0.4s;
 }
+
+button:hover {
+    background: transparent;
+    border: 3px solid rgba(4, 56, 115, 1);
+    transition: 0.4s;
+}
+
 input {
     background: transparent;
     border: none;
 }
+
 ::-webkit-input-placeholder {
     color: white;
- }
- ::-moz-placeholder {
-    color: orange;  
-    font: 12px verdana, arial, sans-serif;
- }
+}
+
+#email {
+    position: absolute;
+    right: 50px;
+    top: 198px;
+}
+
+#senha {
+    position: absolute;
+    right: 50px;
+    top: 278px;
+    cursor: pointer;
+}
+
+.formRegister #email {
+    top: 278px;
+    right: 40px;
+}
+
+.formRegister #senha {
+    top: 370px;
+    right: 40px;
+}
+
+.formRegister #user {
+    position: absolute;
+    right: 40px;
+    top: 198px;
+}

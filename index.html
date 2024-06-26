@@ -23,15 +23,31 @@
                 </div>
 
             </div>
-            <div class="row" id="login">
-                <div class="col-md-6 hidden-sm">
-                    <form method="POST" class="formLogin">
-                        <h2>Hotel <br> Manage</h2>
-                        <input type="email" placeholder="Usuário ou E-mail" autofocus="true" />
-                        <input type="password" placeholder="Senha" />
-                        <a href="/">Esqueci minha senha</a>
-                        <button><input type="submit" value="Entrar" class="btn" /></button>
-                    </form>
+            <div class="row">
+                <div class="login">
+                    <div class="col-md-6 hidden-sm">
+                        <form method="POST" class="formLogin">
+                            <h2>Hotel <br> Manage</h2>
+                            <input type="email" placeholder="Usuário ou E-mail" autofocus="true" />
+                            <i class="fa-solid fa-envelope" id="email"></i>
+                            <input type="password" placeholder="Senha" class="pass"/>
+                            <i class="fa-solid fa-eye senha1" id="senha"></i>
+                            <a href="/">Esqueci minha senha</a>
+                            <button><input type="submit" value="Entrar" class="btn" /></button>
+                            <label>Não tem conta?<a href="#" class="registrar registrarlink">Registrar</a></label>
+                        </form>
+                        <form method="POST" class="formRegister">
+                            <h2>Hotel <br> Manage</h2>
+                            <input type="text" placeholder="Usuário" autofocus="true" />
+                            <i class="fa-solid fa-user" id="user"></i>
+                            <input type="email" placeholder="E-mail" autofocus="true" />
+                            <i class="fa-solid fa-envelope" id="email"></i>
+                            <input type="password" placeholder="Senha" class="pass1" />
+                            <i class="fa-solid fa-eye senha2" id="senha"></i>
+                            <button><input type="submit" value="Registrar" class="btn" /></button>
+                            <label>Já tem conta?<a href="#" class="registrar loginlink">Login</a></label>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -40,6 +56,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3e31cf8307.js" crossorigin="anonymous"></script>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
