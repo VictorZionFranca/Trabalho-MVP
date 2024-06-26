@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 section {
     background-image: url(/img/fc77bc42b5336eef1302d3089c193a39.jpg);
     width: 100%;
@@ -34,3 +36,97 @@ h1 {
     flex-direction: column;
     color: white;
 }
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px
+}
+
+.areaLogin img {
+    width: 420px;
+}
+
+.formLogin h2 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 60px;
+    text-align: center;
+    font-family: Merriweather;
+}
+
+.formLogin p {
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+    color: white;
+}
+
+
+.formLogin input:focus {
+    border-bottom: 1px solid rgba(4, 56, 115, 1);
+}
+
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.formLogin a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    transition: all linear 160ms;
+    text-align: end;
+}
+
+.formLogin a:hover {
+    color: rgb(231, 231, 231);
+}
+
+.btn {
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+    color: white !important;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #ff0676;
+}
+button {
+    background: rgba(4, 56, 115, 1);
+    border-radius: 20px !important;
+    border: none;
+}
+input {
+    background: transparent;
+    border: none;
+}
+::-webkit-input-placeholder {
+    color: white;
+ }
+ ::-moz-placeholder {
+    color: orange;  
+    font: 12px verdana, arial, sans-serif;
+ }
