@@ -248,28 +248,38 @@ input {
         top: 100px;
     }
 }
+
 @media (max-width:1200px) {
     img {
         display: none;
     }
+
     h1 {
         display: none;
     }
+
     section {
         height: 100% !important;
         width: 100% !important;
         background-image: url(/img/fundo-celular.jpg);
         background-size: cover;
     }
+
     .login {
         justify-content: center;
     }
+
     .login .formLogin {
-        top: 160px;
+        top: 30px;
     }
 
     .login .formRegister {
-        top: 130px;
+        top: 30px;
     }
-    
+
+    .formLogin,
+    .formRegister {
+        backdrop-filter: blur(15px) !important;
+    }
+
 }
