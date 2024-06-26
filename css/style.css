@@ -206,3 +206,70 @@ input {
     right: 40px;
     top: 198px;
 }
+
+@media (min-width:1380px) {
+    h1 {
+        left: 200px;
+    }
+
+    .login .formLogin {
+        top: 55px;
+    }
+
+    .login .formRegister {
+        top: 40px;
+    }
+}
+
+@media (min-width:1550px) {
+    h1 {
+        left: 300px;
+    }
+
+    .login .formLogin {
+        top: 100px;
+    }
+
+    .login .formRegister {
+        top: 70px;
+    }
+}
+
+@media (min-width:1750px) {
+    h1 {
+        left: 350px;
+    }
+
+    .login .formLogin {
+        top: 120px;
+    }
+
+    .login .formRegister {
+        top: 100px;
+    }
+}
+@media (max-width:1200px) {
+    img {
+        display: none;
+    }
+    h1 {
+        display: none;
+    }
+    section {
+        height: 100% !important;
+        width: 100% !important;
+        background-image: url(/img/fundo-celular.jpg);
+        background-size: cover;
+    }
+    .login {
+        justify-content: center;
+    }
+    .login .formLogin {
+        top: 160px;
+    }
+
+    .login .formRegister {
+        top: 130px;
+    }
+    
+}
