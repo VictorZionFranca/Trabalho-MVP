@@ -4,27 +4,33 @@
 .bg-body-tertiary {
     background-color: rgba(4, 56, 115, 1) !important;
 }
+
 #logo {
     width: 60px;
 }
+
 .d-flex button a {
     text-decoration: none !important;
     color: white;
 }
+
 header a {
     color: white !important;
     font-size: 20px !important;
     margin-right: 10px;
 }
+
 .dropdown-menu {
     background-color: rgba(4, 56, 115, 1) !important;
     transition: 0.3s;
 }
+
 .dropdown-menu a:hover {
     background-color: rgb(2, 31, 65);
     border-radius: 10px;
     transition: .3s;
 }
+
 section {
     background-image: url(/img/quarto-hotel.jpg);
     width: 100%;
@@ -32,6 +38,7 @@ section {
     background-position: center;
     background-repeat: no-repeat;
 }
+
 section h1 {
     position: absolute;
     text-align: center;
@@ -39,63 +46,94 @@ section h1 {
     top: 250px;
     color: white;
 }
+
 main {
     margin-top: 40px;
     font-family: Roboto;
 }
+
 .container {
     padding: 30px;
 }
+
 .quartos {
     display: flex;
     gap: 30px;
+    margin-top: 50px;
 }
+
 .quadrado {
     width: 300px;
     height: 300px;
     background-color: rgb(243, 243, 243);
     border-radius: 20px;
-    box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.75);
+    transition: .3s;
 }
+.quadrado:hover {
+    transform: scale(1.12);
+    transition: .3s;
+}
+
 .quadrado-img {
     text-align: center;
     top: 10px;
     position: relative;
 }
+
 .quadrado-img img {
     width: 220px;
     text-align: center;
     border-radius: 5px;
 }
+.quadrado-img i {
+    font-size: 150px;
+    position: relative;
+    top: 20px;
+}
+.atalhos p {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .texto {
     position: relative;
     top: 20px;
     left: 20px;
     font-size: 20px;
 }
+
 .texto p {
     font-weight: 600;
     margin: 0;
 }
+
 .texto i {
     font-size: 15px;
-    color:rgba(255, 214, 70, 1);
+    color: rgba(255, 214, 70, 1);
     position: relative;
     top: -10px;
 }
+
 .valor {
     position: relative;
     top: 10px;
     left: 20px;
     font-size: 20px;
 }
+
 .valor p {
     margin: 0;
 }
+
 .valor .vezes {
     font-size: 15px;
     color: rgb(139, 139, 139);
 }
+
 .valor i {
     position: absolute;
     right: 50px;
