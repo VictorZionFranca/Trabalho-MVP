@@ -88,6 +88,7 @@ main {
 
 .quadrado-img img {
     width: 220px;
+    height: 140px;
     text-align: center;
     border-radius: 5px;
 }
