@@ -70,7 +70,6 @@ h1 {
 .formRegister {
     display: flex;
     flex-direction: column;
-    background-color: transparent;
     backdrop-filter: blur(15px);
     border-radius: 15px;
     padding: 20px;
@@ -205,6 +204,15 @@ input {
     position: absolute;
     right: 40px;
     top: 198px;
+}
+
+@media (max-width: 1200px) {
+
+    .formLogin,
+    .formRegister {
+        background-color: rgba(228, 228, 228, 0.2) !important;
+        backdrop-filter:  blur(10px);
+    }
 }
 
 @media (min-width:1380px) {
