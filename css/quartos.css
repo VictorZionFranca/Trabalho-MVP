@@ -35,6 +35,10 @@ header a {
     .footer-copyright {
         height: 100px !important;
     }
+    .barra button {
+        width: 8px !important;
+        height: 8px !important;
+    }
 }
 .dropdown-menu {
     background-color: rgba(4, 56, 115, 1) !important;
