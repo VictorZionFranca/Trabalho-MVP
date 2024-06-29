@@ -73,9 +73,10 @@ section {
 @media (max-width: 520px) {
     section h1 {
         font-size: 25px;
-        backdrop-filter: blur(30px);
-        padding: 10px;
-        border-radius: 20px;
+        background-color: rgba(228, 228, 228, 0.2);
+        backdrop-filter: blur(6px);
+        padding: 15px;
+        border-radius: 50px 10px 50px 10px;
     }
 }
 section h1 {
