@@ -40,6 +40,9 @@ header a {
     .texto {
         left: 7px !important;
     }
+    .valor {
+        left: 7px !important;
+    }
     .valor i {
         display: none;
     }
