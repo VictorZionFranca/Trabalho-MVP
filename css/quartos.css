@@ -65,6 +65,9 @@ h2 {
     height: 320px;
     border-radius: 10px;
 }
+.carousel img {
+    border-radius: 20px;
+}
 .valor {
     display: flex;
     padding-top: 40px;
