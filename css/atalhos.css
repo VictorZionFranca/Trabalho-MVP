@@ -1,0 +1,163 @@
+/* Começo Header */
+.bg-body-tertiary {
+    background-color: rgba(4, 56, 115, 1) !important;
+}
+
+#logo {
+    width: 60px;
+}
+
+.d-flex button a {
+    text-decoration: none !important;
+    color: white;
+}
+
+header a {
+    color: white !important;
+    font-size: 20px !important;
+    margin-right: 10px;
+}
+
+@media (max-width: 1100px) {
+    #reservar {
+        padding: 0 !important;
+    }
+
+    header form {
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 520px) {
+    .quadrado-img img {
+        width: 140px !important;
+    }
+
+    .texto p {
+        font-size: 16px;
+    }
+
+    .texto i {
+        font-size: 8px !important;
+    }
+
+    .texto {
+        left: 7px !important;
+    }
+
+    .valor {
+        left: 7px !important;
+    }
+
+    .valor i {
+        display: none;
+    }
+
+    .footer-copyright {
+        height: 100px !important;
+    }
+}
+
+.dropdown-menu {
+    background-color: rgba(4, 56, 115, 1) !important;
+    transition: 0.3s;
+}
+
+.dropdown-menu a:hover {
+    background-color: rgb(2, 31, 65);
+    border-radius: 10px;
+    transition: .3s;
+}
+
+/* Fim Header */
+/* Começo Main */
+.estoque {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.quadrado {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.75);
+    transition: .3s;
+}
+
+.quadrado-img {
+    justify-content: center;
+    display: flex;
+}
+
+.quadrado-img img {
+    width: 200px;
+    margin-top: 15px;
+}
+
+.quadrado-texto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.quadrado-texto h3 {
+    font-weight: 700;
+}
+
+.quadrado-texto p {
+    font-weight: 500;
+}
+
+.quadrado:hover {
+    transform: scale(1.12);
+    transition: .3s;
+}
+
+/* Fim Main */
+/* Começo Footer */
+
+.footer-fundo {
+    width: 100%;
+    height: 150px;
+    background-color: rgba(4, 56, 115, 1);
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-fundo h2 {
+    font-weight: bold;
+    color: white;
+}
+
+.footer-copyright {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(2, 31, 65);
+    margin: 0;
+    box-shadow: 0px -10px 30px 2px rgba(4, 56, 115, 1);
+}
+
+.footer-copyright p {
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    padding-top: 28px;
+    color: white;
+    font-size: 16px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+#logoFooter {
+    width: 100px;
+    text-align: center;
+}
+
+/* Fim Footer */
