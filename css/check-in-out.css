@@ -1,0 +1,148 @@
+/* Começo Header */
+/* Fim Header */
+/* Começo Main */
+main nav {
+    margin: 50px 0 0 100px;
+}
+@media (max-width: 500px) {
+    main nav {
+        margin: 50px 0 0 20px;
+    }
+}
+.container {
+    background-color: rgb(235, 235, 235);
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    padding: 25px;
+    border-radius: 15px;
+}
+.row {
+    justify-content: center;
+}
+.row p {
+    margin: 0;
+    padding: 20px 0 5px 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    border-bottom: 3px solid rgb(176, 176, 176);
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.datas {
+    padding-left: 20px;
+    display: flex;
+    gap: 20px;
+}
+.datas-entrada p {
+    margin: 0;
+    padding: 20px 0 5px 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+@media (max-width: 1000px) {
+    .datas {
+        flex-direction: column;
+    }
+    .datas-saida {
+        padding: 0 !important;
+    }
+    .data-reserva {
+        padding-bottom: 30px !important;
+    }
+    .bt-cancelar button, .bt-salvar button {
+        width: 100px !important;
+    }
+}
+.datas-saida {
+    padding-left: 20px;
+}
+.datas-saida p {
+    margin: 0;
+    padding: 20px 0 5px 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+.data-reserva {
+    padding-left: 20px;
+}
+.data-reserva p {
+    margin: 0;
+    padding: 20px 0 5px 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+.dados {
+    display: flex;
+    gap: 40px;
+    padding-left: 20px;
+}
+.ocupacao {
+    padding-left: 20px;
+}
+.familia {
+    padding-left: 20px;
+    display: flex;
+    gap: 30px;
+}
+.caixa {
+    padding-left: 20px;
+}
+.box {
+    width: 140px;
+    padding: 5px 0;
+    border: 3px solid rgb(137, 137, 137);
+    border-radius: 8px;
+    font-weight: 600;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.box.hora {
+    width: 130px;
+}
+.box.reserva {
+    width: 250px;
+}
+.box.tipo-uh {
+    width: 100px;
+}
+.box.ocupacao {
+    width: 250px;
+}
+.box.qtd {
+    justify-content: space-between;
+}
+.box.volume {
+    width: 200px;
+}
+.box.qtd p {
+    padding-left: 20px;
+}
+.box.qtd i {
+    padding-right: 5px;
+}
+.box i {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.box p {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.botoes {
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+    justify-content: center;
+}
+.bt-cancelar button, .bt-salvar button {
+    width: 300px;
+}
+/* Fim Main */
