@@ -41,6 +41,12 @@ header a {
         color: white;
         margin:0 40px 0 0;
     }
+    main h1 {
+        display: none;
+    }
+    .pagination {
+        margin-top: 50px;
+    }
 }
 
 @media (max-width: 520px) {
