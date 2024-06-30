@@ -17,14 +17,29 @@ header a {
     font-size: 20px !important;
     margin-right: 10px;
 }
-
-@media (max-width: 1100px) {
+#hotelmanage {
+    display: none;
+}
+@media (max-width: 1200px) {
     #reservar {
         padding: 0 !important;
     }
-
     header form {
         justify-content: flex-end;
+    }
+    #nome-valor {
+        padding: 0 !important;
+    }
+    #coracao {
+        padding-left: 112px !important;
+    }
+    #hotel {
+        display: none;
+    }
+    #hotelmanage {
+        display: flex;
+        color: white;
+        margin:0 40px 0 0;
     }
 }
 
