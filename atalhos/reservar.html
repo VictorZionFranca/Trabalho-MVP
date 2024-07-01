@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HotelManage</title>
+    <link rel="icon" href="/img/hotelmanage-semfundo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/atalhos.css">
+    <link rel="stylesheet" href="/css/index.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-xl bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html"><img src="/img/hotelmanage-semfundo.png" id="logo"></a>
+                <h1 id="hotelmanage">Reservar</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars" style="color: white;"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="align-items: center;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html"
+                                style="font-weight: 500; font-size: 30px !important;" id="hotel">HotelManage</a>
+                        </li>
+                        <li class="nav-item" style="padding-left: 80px;" id="reservar">
+                            <a class="nav-link" href="#">Reservar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="check-in.html">Check-in/Check-out</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="estoque.html">Estoque</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <button class="btn btn-outline-success"><a href="/login.html"
+                                style="margin: 0;">Login/Registrar</a></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <h2 style="margin: 40px 0 30px 0;">Quartos Diponíveis:</h2>
+                <div class="col-lg-12 col-xl-6">
+                    <div class="quartos">
+                        <div class="quadrado">
+                            <a href="/quartos/quarto-standart.html">
+                                <div class="quadrado-img">
+                                    <img src="/img/standart.jpg">
+                                </div>
+                                <div class="texto">
+                                    <p>Quarto Standart</p>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="valor">
+                                    <p>R$200,00</p>
+                                    <p class="vezes">4x de 50,00</p>
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="quadrado">
+                            <a href="/quartos/quarto-deluxe.html">
+                                <div class="quadrado-img">
+                                    <img src="/img/quarto-deluxe.jpg">
+                                </div>
+                                <div class="texto">
+                                    <p>Quarto Deluxe</p>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="valor">
+                                    <p>R$300,00</p>
+                                    <p class="vezes">4x de 75,00</p>
+                                    <i class="fa-solid fa-heart"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-xl-6">
+                    <div class="quartos">
+                        <div class="quadrado">
+                            <a href="/quartos/suite-executiva.html">
+                                <div class="quadrado-img">
+                                    <img src="/img/suite-executiva.jpg">
+                                </div>
+                                <div class="texto">
+                                    <p>Suíte Executiva</p>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="valor">
+                                    <p>R$600,00</p>
+                                    <p class="vezes">4x de 150,00</p>
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="quadrado">
+                            <a href="/quartos/suite-presidencial.html">
+                                <div class="quadrado-img">
+                                    <img src="/img/suite-presidencial.jpg">
+                                </div>
+                                <div class="texto">
+                                    <p>Suíte Presidencial</p>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="valor">
+                                    <p>R$1200,00</p>
+                                    <p class="vezes">10x de 120,00</p>
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <h2 style="margin: 100px 0 10px 0;">Quartos Reservados:</h2>
+                <div class="col-lg-12 col-xl-6">
+                    <div class="quartos">
+                        <div class="quadrado">
+                            <a href="#">
+                                <div class="quadrado-img">
+                                    <img src="/img/simples.jpeg">
+                                </div>
+                                <div class="texto">
+                                    <p>Quarto Simples</p>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="valor">
+                                    <p>R$180,00</p>
+                                    <p class="vezes">4x de 45,00</p>
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="quadrado">
+                            <a href="#">
+                                <div class="quadrado-img">
+                                    <img src="/img/superior.jpg">
+                                </div>
+                                <div class="texto">
+                                    <p>Quarto Superior</p>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="valor">
+                                    <p>R$350,00</p>
+                                    <p class="vezes">4x de 87,50</p>
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-xl-6">
+                    <div class="quartos">
+                        <div class="quadrado">
+                            <a href="#">
+                                <div class="quadrado-img">
+                                    <img src="/img/moderno.jpg">
+                                </div>
+                                <div class="texto">
+                                    <p>Suíte Moderna</p>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="valor">
+                                    <p>R$500,00</p>
+                                    <p class="vezes">4x de 125,00</p>
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="quadrado">
+                            <a href="#">
+                                <div class="quadrado-img">
+                                    <img src="/img/imperial.jpg">
+                                </div>
+                                <div class="texto">
+                                    <p>Suíte Imperial</p>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="valor">
+                                    <p>R$1400,00</p>
+                                    <p class="vezes">10x de 140,00</p>
+                                    <i class="fa-regular fa-heart"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-fundo">
+            <div class="footer-logo">
+                <img src="/img/hotelmanage-semfundo.png" id="logoFooter">
+                <h2>HotelManage</h2>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>Copyright ©2024 HotelManage | Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3e31cf8307.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
